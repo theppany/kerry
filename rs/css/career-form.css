@@ -1,0 +1,61 @@
+body { background-color:#ffffff }
+
+.registerForm { padding:100px 0px; }
+.registerForm { max-width:1000px;margin:0px auto;}
+
+.pageTitle  { text-align:center;margin:0px;padding:0px;padding-bottom:10px;border-bottom:1px #efefef solid;}
+.pageTitle > span {
+	font-size:30px;
+	color:#f27024;
+	background:url(../img/page_career/icon/title.png) right center no-repeat;
+	margin:0px auto;
+	padding:8px 0px;
+	padding-right:70px;
+	display:inline-block
+}
+
+.box { padding:20px 40px;border-bottom:1px #efefef solid; }
+.box h3 { font-size:22px;color:#f27024;margin:0px;padding:0px; }
+.box .subtitle { color:#333333;font-size:17px;margin-top:5px;font-weight:bold; }
+.box .inputArea { margin:20px 100px; }
+.box .inputArea .row { display:table;width:100%;margin:8px 0px;  }
+.box .inputArea .row > .col { display:table-cell;color:#333333;font-size:15px;vertical-align:middle }
+.box .inputArea .row > .col-name { width:30%; }
+.box .inputArea .row > .col-separate { width:50px;text-align:center; }
+.box .inputArea .row > .col-input { width:auto }
+.box .inputArea .row > .col-desc { width:80px;padding:0px 20px; }
+
+.box .inputArea .req { color:#FF0000}
+.box .inputArea .txt_input { width:100%;font-size:16px;}
+.box .inputArea .txt-center { text-align:center }
+.box .inputArea .txt-width-auto { width:auto }
+
+.box .inputArea .input-radio-area { padding:10px 0px; }
+.box .inputArea .input-radio-area input[type='radio'] { margin-left:20px; }
+
+.confirmArea { text-align:center;margin:30px 0px;font-weight:bold;color:#111111 }
+.btn-submit { font-size:18px;margin-top:20px;}
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}

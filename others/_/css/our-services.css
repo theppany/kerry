@@ -1,0 +1,133 @@
+.sector-banner1 {
+	height:410px;
+	width:100%;
+	background:url(../img/page_our_services/banner01.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+.sector-banner2 {
+	height:410px;
+	width:100%;
+	background:url(../img/page_our_services/banner02.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+.sector-banner3 {
+	height:410px;
+	width:100%;
+	background:url(../img/page_our_services/banner03.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+.sector-banner4 {
+	height:410px;
+	width:100%;
+	background:url(../img/page_our_services/banner04.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+.sector-banner5 {
+	height:410px;
+	width:100%;
+	background:url(../img/page_our_services/banner05.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+.sector-banner6 {
+	height:410px;
+	width:100%;
+	background:url(../img/page_our_services/banner06.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+.sector-banner7 {
+	height:410px;
+	width:100%;
+	background:url(../img/page_our_services/banner07.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+
+
+.sector-content .icon-b2c { background:url(../img/page_our_services/icon/b2c.png) left top no-repeat;} 
+
+.sector-content .icon-b2b { background:url(../img/page_our_services/icon/b2b.png) left top no-repeat;}
+
+.sector-content .icon-c2c { background:url(../img/page_our_services/icon/c2c.png) left top no-repeat;}
+.sector-content .icon-bkk { background:url(../img/page_our_services/icon/bkk.png) left top no-repeat;}
+.sector-content .icon-inter { background:url(../img/page_our_services/icon/inter.png) left top no-repeat;}
+.sector-content .icon-value { background:url(../img/page_our_services/icon/value.png) left top no-repeat;}
+.sector-content .icon-terms { background:url(../img/page_our_services/icon/terms.png) left top no-repeat;}
+.sector-content { padding:40px 20px; }
+.sector-content > .warpper {
+	max-width:1100px;
+	padding-left:70px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 60px;
+	margin-left: auto;
+}
+.sector-content h1 { color:#f27024;font-size:40px;border-bottom:1px #aaaaaa solid;padding:0px;padding-bottom:20px;margin:0px;margin-bottom:20px;}
+.sector-content h1 > span { font-size:32px;font-weight:normal;}
+.sector-content h4 { color:#444444;font-size:22px;margin:0px;padding:0px;margin-bottom:20px;}
+.sector-content p { color:#777777;margin-bottom:14px;line-height:1.4 }
+
+
+.pagation { padding:0px 20px; }
+.pagation > .warpper { max-width:1240px;margin:0px auto;overflow:auto;padding-bottom:30px; }
+.pagation .btn { color:#e96513;font-size:32px; }
+.pagation .btn-prev { background:url(../img/page_our_services/icon/al.png) left no-repeat;padding-left:60px;float:left; }
+.pagation .btn-next { background:url(../img/page_our_services/icon/ar.png) right no-repeat;padding-right:60px;float:right; }
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 1000px) {
+	.pagation .btn { font-size:22px; }
+}
+
+@media only screen and (max-width: 768px) {
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.sector-content { padding-top:20px; }
+	.sector-content h1 { font-size:32px;padding-left:70px; }
+	.sector-content h1 > span { font-size:26px;}
+	.sector-content h4 { font-size:20px; }
+	
+	.sector-content > .warpper  { padding:0px; }
+	
+	
+}

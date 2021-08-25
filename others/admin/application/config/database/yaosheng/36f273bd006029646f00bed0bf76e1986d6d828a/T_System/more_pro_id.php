@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"more_pro_id","label":"\u9996\u9801\u66f4\u591a\u7522\u54c1\u93c8\u63a5\uff08\u586b\u5beb\u5206\u985eID\uff09","type":"text","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"","db_options":{"table":"T_Cat"},"list_choose":"default"}

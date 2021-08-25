@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"cid","label":"\u5206\u985eID","type":"text","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"","db_options":{"table":"T_Jobs"},"list_choose":"default"}

@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["title","content","sort"],"table":{"crudTitle":"T_Jobs manager","crudRowsPerPage":"20"},"filter":{"list":["id","title","content","sort"],"atrr":{"title":{"alias":"\u984c\u76ee"},"content":{"alias":"\u5185\u5bb9"},"sort":{"alias":"\u6392\u5e8f"},"id":{"alias":"id"}}},"column":{"list":["id","title","content","sort"],"actived":["id","title"],"atrr":{"title":{"alias":"\u984c\u76ee"},"content":{"alias":"\u5185\u5bb9"},"sort":{"alias":"\u6392\u5e8f"},"id":{"alias":"id"}}},"frm_type":"2"}

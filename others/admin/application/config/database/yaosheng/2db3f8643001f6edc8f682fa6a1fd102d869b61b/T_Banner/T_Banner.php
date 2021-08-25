@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["img","sort"],"table":{"crudTitle":"T_Banner manager","crudRowsPerPage":"20"},"filter":{"list":["id","img","sort"],"atrr":{"img":{"alias":"\u6a6b\u5e45"},"sort":{"alias":"\u6392\u5e8f"},"id":{"alias":"id"}}},"column":{"list":["id","img","sort"],"actived":["id","img","sort"],"atrr":{"img":{"alias":"\u6a6b\u5e45"},"sort":{"alias":"\u6392\u5e8f"},"id":{"alias":"id"}}},"frm_type":"2"}

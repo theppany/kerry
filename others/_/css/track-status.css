@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+@font-face {
+    font-family: 'WebFont';
+    src: url('fonts/Calibri_0.eot');
+	src: local('☺'), url('fonts/Calibri_0.woff') format('woff'), url('css/fonts/Calibri_0.html') format('truetype'), url('fonts/Calibri_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+html , body {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	font-size:12px;
+}
+
+body {
+	font-size: 14px;
+	font-family: 'WebFont',tahoma,verdana,arial,sans-serif,"lucida grande";
+}
+
+
+.section-status  { padding:40px 20px; }
+.section-status > .warpper { max-width:1100px;margin:0px auto; }
+.section-status .row { position:relative;display:table;min-height:300px;width:100%; }
+.section-status .row > .col { display:table-cell;vertical-align:top;width:40%;position:relative; }
+.section-status .row > .colStatus { border-left:1px #c8c8c8 solid;width:60%; }
+
+.info { color:#1c1c1c;line-height:1.4;padding:20px; }
+.info .line { }
+.info span { color:#e96514 }
+
+.kerry { position:absolute;bottom:0px;left:0px;right:0px;top:auto;padding:20px;border-top:1px #c8c8c8 solid;}
+.kerry .logo { margin-right:15px;float:left }
+.kerry .t1 { color:#e96514;font-weight:bold;  }
+.kerry .t2 { color:#1c1c1c;font-size:14px;margin-top:5px;font-weight:normal }
+
+
+.status { font-size:16px;width:550px;position:relative;overflow:auto;padding-bottom:20px;  }
+.status > .date { color:#808080;text-align:right;width:120px;float:left;margin-top:4px;margin-right:95px;padding-left:10px;   }
+.status > .icon { width:45px;margin:0px 25px;background:url(../img/page_track/status/line.png) center repeat-y;height:100%;position:absolute;left:130px;top:0px;height:100%;overflow:hidden }
+.status > .icon > .img {
+	height:45px;
+	width:45px;
+	background-image: url(../img/page_track/status/wait.png);
+	background-repeat: no-repeat;
+}.status > .desc { float:left;width:320px; }
+.status > .desc > .d1 { color:#e96514;margin-bottom:2px; }
+.status:last-child > .icon { background:none!important}
+
+
+.success > .icon {background-image:url(../img/page_track/status/line-success.png)} 
+.success > .icon > .img {background:url(../img/page_track/status/success.png) no-repeat; }
+.process > .icon > .img {background:url(../img/page_track/status/in-process.png) no-repeat; }
+.alert > .icon > .img {background:url(../img/page_track/status/alert.png) no-repeat; }
+.icon-u > .icon > .img {background:url(../img/page_track/status/u.png) no-repeat; }
+
+
+
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 900px) {
+	.section-status .row { display:block;min-height:auto; }
+	.section-status .row > .col  { display:block;width:auto }
+	.section-status .row > .colStatus { border:0px; border-top:1px #c8c8c8 solid;padding-top:20px; }
+	
+	.kerry  { position:relative;top:auto;left:auto;right:auto;bottom:auto }
+	
+	.info { padding-top:0px; }
+	
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.status { padding-left:90px;width:auto }
+	.status > .date { width:auto;float:none;text-align:left;padding-left:0px;margin-right:0px; }
+	.status > .date > div { display:inline-block ;font-size:14px;}
+	.status > .desc  { width:auto;float:none; }
+	.status > .icon { left:0px; }
+	
+}
+
+
+@media only screen and (max-width: 430px) {
+
+	.info {  padding:0px 0px 20px 0px; }
+	.kerry { text-align:center;padding:20px 0px; }
+	.kerry .logo { float:none;margin-bottom:10px; }
+	.status { padding-left:80px; }
+	.status > .icon { margin-left:10px; }
+}
+
+
+/* for signature */
+        .fix-signed {
+            background: rgba(256,256,256, 0.8);
+        }
+
+            .fix-signed .featherlight-content {
+                margin-left: 10% !important;
+                margin-right: 10% !important;
+                padding: 10px 0;
+                color: #fff;
+                background: #111;
+                border-bottom: 0 !important;
+            }
+
+                .fix-signed .featherlight-content img {
+                    margin: 0 auto;
+                    width: 373px !important;
+                    height: 218px !important;
+                    display: block;
+                }
+
+            .fix-signed .featherlight-close {
+                color: #fff;
+                background: #333;
+            }
+
+        .hidden-image {
+            height: 1px !important;
+            overflow: hidden;
+        }

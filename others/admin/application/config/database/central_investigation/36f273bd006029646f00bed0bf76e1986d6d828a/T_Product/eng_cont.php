@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"eng_cont","label":"\u82f1\u6587\/\u670d\u52d9\u8a73\u60c5\u4ecb\u7d39","type":"editor","type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":""}

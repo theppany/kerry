@@ -1,0 +1,130 @@
+.sector-banner {
+	padding-top:80px;
+	height:700px;
+	width:100%;
+	background:url(../img/page_contact/bg.jpg) center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	-ms-background-size: cover;
+	background-size:cover;
+}
+.hidden { display:none } 
+
+.sector-banner > .warpper { max-width:1200px;margin:0px auto }
+.sector-banner > .warpper > .area { width:500px; }
+.sector-banner .box { padding:20px; }
+
+.sector-banner .boxAddr { border-bottom:1px #d6d7d9 solid;} 
+.sector-banner .boxAddr h1 { color:#f27024;margin:0px;margin-bottom:18px;font-size:32px; }
+.sector-banner .boxAddr .tb td { font-size:16px;color:#222222 }
+.sector-banner .boxAddr .btnArea { margin-top:18px; }
+.sector-banner .boxAddr .btnArea .btn { display:inline-block;background:none;color:#f27024;border:1px #f27024 solid;margin-right:5px; }
+
+
+.sector-banner .boxForm {}
+.sector-banner .boxForm h2 { color:#f27024;margin:0px;font-size:28px; }
+.sector-banner .boxForm .sub-title { margin-bottom:18px; }
+.sector-banner .boxForm .require { color:#ff0000 }
+.sector-banner .boxForm form { margin:0px; }
+
+.sector-banner .boxForm .line { margin-bottom:5px;overflow:auto }
+.sector-banner .boxForm .col { width:49.5%;float:left }
+.sector-banner .boxForm .line .col:first-child { padding-right:0.5%;}
+.sector-banner .boxForm .line .col:last-child { padding-left:0.5%; }
+.sector-banner .boxForm .txt {
+	width:100%;
+	padding:12px 15px;
+	color:#666666;
+	border:none;
+	background:url(../img/page_contact/input-bg.png)
+}
+.sector-banner .boxForm .btnArea { text-align:right;margin-top:10px; }
+
+
+.sector-tab { height:0px;border-bottom:5px #e76513 solid; }
+.sector-tab > .warpper { max-width:1100px;margin:0px auto;position:relative; }
+.sector-tab .tabset { position:absolute;left:0px;bottom:0px;width:100%; }
+.sector-tab .tabset > .tab { width:25%;float:left;}  
+.sector-tab .tabset > .tab a  { display:block;margin:0px 5px;padding:16px 10px;margin-top:4px; text-align:center; background:url(../img/page_contact/tab-bg.png);color:#333333;font-size:16px;border-radius:10px 10px 0px 0px; }
+.sector-tab .tabset > .tab a.active { background-color:#e76513;background-image:none;color:#ffffff;padding:18px 10px;margin-top:0px; }
+
+
+.sector-tab  .tabMobile { display:table;width:96%;margin:0px auto;padding:0px 2%; display:none; } 
+.sector-tab  .tabMobile .tab { display:table-cell;text-align:center;vertical-align:middle;float:none;height:auto;width:auto  }
+.sector-tab  .tabMobile .ar , .sector-tab  .tabMobile .al { width:40px;vertical-align:bottom } 
+.sector-tab  .tabMobile .ar img , .sector-tab  .tabMobile .al img { height:30px; }
+.sector-tab  .tabMobile .ar a , .sector-tab  .tabMobile .al  a { height:100%!important;display:block;}
+.sector-tab  .tabMobile .ar a { border-radius:0px 10px 0px 0px  }
+.sector-tab  .tabMobile .al a { border-radius:10px 0px 0px 0px  }
+.sector-tab  .tabMobile .center a { height:29px!important;vertical-align:middle;display:block;font-size:20px; }
+.sector-tab  .tabMobile .tab a { margin:0px!important  }
+
+
+.mapArea { height:600px;position:relative; }	
+.mapArea > #sector-map { height:100%;background-color:#dddddd }
+
+.mapArea > .sector-detail { z-index:1;position:absolute;top:80px;right:100px;background-color:#ffffff;width:360px; }
+.mapArea > .sector-detail .box { padding:20px 30px; }
+.mapArea > .sector-detail .boxTitle { border-bottom:1px #dbdbdb solid;padding:0px 30px; }
+.mapArea > .sector-detail  h1 { color:#4f4f4f;font-weight:normal;margin:0px;padding:20px 0px;font-size:34px;padding-left:50px;background:url(../img/page_contact/marker.png) left center no-repeat }
+.mapArea > .sector-detail .tb { }
+.mapArea > .sector-detail .tb td { font-size:16px;color:#838383;padding:2px; }
+.mapArea > .sector-detail  .btn { display:inline-block;background:none;color:#f27024;border:1px #f27024 solid;margin:10px 0px; }
+
+
+#error-msg { display:inline-block;color:#ff0000;margin-right:10px; }
+.inputerror { border:1px #ff0000 solid!important; }
+
+
+
+@media only screen and (max-width: 1600px) {
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+	.mapArea > .sector-detail { right:50px; }
+}
+
+@media only screen and (max-width: 1000px) {
+	.sector-tab .tabset > .tab a { height:40px; }
+}
+
+@media only screen and (max-width: 768px) {
+	.sector-banner { background-position:right }
+	.sector-banner > .warpper > .area { float:none;width:auto;margin:0px 50px }
+	
+	.mapArea { height:auto }
+	.mapArea > .sector-detail { position:relative;top:auto;right:auto;width:auto  }
+	.mapArea > #sector-map { height:400px; }
+	
+}
+
+@media only screen and (max-width: 600px) {
+	.sector-banner { height:auto;padding-bottom:120px; }
+	.sector-banner > .warpper > .area { margin:0px }
+	.sector-banner .boxAddr { padding-top:0px; }
+	.sector-banner .boxAddr h1 { font-size:26px; }
+	.sector-banner .boxAddr .btnArea { text-align:center }
+	.sector-banner .boxAddr .btnArea .btn { padding:10px 15px;}
+	
+	.sector-banner .boxForm .col { width:100%;padding:0px!important;}
+	.sector-banner .boxForm .col:first-child { margin-bottom:5px; }
+	
+	.sector-banner .boxForm .btnArea { text-align:center }
+	.sector-banner .boxForm .btnArea .btn { display:inline-block;padding:15px 50px; }
+	
+	
+	#error-msg  { margin-bottom:10px;text-align:center;display:block; }
+	
+	
+	.sector-tab  .tabMobile  { display:table!important }  
+	.sector-tab  .tabset  { display:none }  
+}
+@media only screen and (max-width: 600px) {
+	.mapArea > .sector-detail  h1 { font-size:28px  }
+}

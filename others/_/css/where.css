@@ -1,0 +1,204 @@
+.mapArea { position:relative;height:720px; }
+
+#sector-map { height:100%;background-color:#cccccc }
+
+
+#sector-search { max-height:640px;position:absolute;top:62px;right:80px;background-color:#ffffff;z-index:1;}
+#sector-search > .warpper { width:380px; }
+#sector-search .box { padding:20px 30px; }
+
+
+#sector-search  .boxForm  { border-bottom:1px #c3c3c3 solid;padding:10px 30px; }
+#sector-search  .boxForm h1 { color:#f27024;font-size:30px;margin:0px;padding:10px; padding-left:50px;background:url(../img/page_where/marker.png) left center no-repeat }
+#sector-search  .boxForm h1 > div { font-size:18px;color:#1c1c1c }
+
+
+#sector-search .frmSearch { padding:10px 0px;text-align:right;margin:0px;  }
+#sector-search .frmSearch .txt { padding:12px;width:100%;text-align:center;color:#c3c3c3;font-size:15px;border:none; }
+#sector-search .frmSearch .selectType { 
+	padding:12px;padding-right:30px;width:20%;text-align:center;border-left:1px #c3c3c3 solid;background:url(../img/page_where/search/arrow.png) right 10px center no-repeat;cursor:pointer; 
+}
+#sector-search .frmSearch .input-inline  {  width:100%;border-radius:10px; border:1px #c3c3c3 solid;text-align:left;overflow:hidden;display:table; }
+#sector-search .frmSearch .input-inline > * { display:table-cell;}
+#sector-search .frmSearch .selectPopArea { height:0px;position:relative;display:none}
+#sector-search .frmSearch .selectPopArea > .pop { position:absolute;right:0px;top:5px;padding:12px;border-radius:10px; border:1px #c3c3c3 solid;overflow:hidden;background-color:#ffffff; }
+#sector-search .frmSearch .selectPopArea > .pop a { display:block; border-bottom:1px #c3c3c3 solid;padding:6px;padding-left:30px;color:#000000;font-size:14px;text-align:left }
+#sector-search .frmSearch .selectPopArea .bShop { background:url(../img/page_where/search/shop.png) left 10px center no-repeat; }
+#sector-search .frmSearch .selectPopArea .bBTS { background:url(../img/page_where/search/bts.png) left 10px center no-repeat; }
+#sector-search .frmSearch .selectPopArea .bLocker { background:url(../img/page_where/search/locker.png) left 10px center no-repeat; }
+#sector-search .frmSearch .selectPopArea .bDC { background:url(../img/page_where/search/dc.png) left 10px center no-repeat; }
+
+#sector-search .frmSearch .btn { margin-top:10px; }
+
+#sector-search  .boxDetail { padding:0px;max-height:415px;overflow:auto }
+#sector-search  .boxDetail > .warpper { padding:20px 30px; }
+#sector-search  .boxDetail .img { margin-bottom:10px;text-align:center }
+#sector-search  .boxDetail .img img { max-width:100%;max-height:150px; }
+#sector-search  .boxDetail .tb { color:#333333;font-size:15px; }
+#sector-search  .boxDetail .tb td { padding:5px;}
+#sector-search  .boxDetail .tb .subject { color:#333333;font-size:14px }
+#sector-search  .boxDetail .tb .shopname { color:#f27024;font-size:18px;font-weight:bold; }
+#sector-search  .btnArea { text-align:center;margin-top:10px; }
+#sector-search  .btnArea > .btn { width:120px;padding:8px;display:inline-block;background-color:#d5d5d5;color:#000000 }
+
+
+.sector-type { padding:10px 20px}
+.sector-type > .warpper { max-width:1200px;margin:0px auto;text-align:right; }
+.sector-type .type {
+	display:inline-block;
+	color:#333333;
+	font-size:14px;
+	padding:5px 20px;
+	padding-left:30px;
+	-webkit-background-size: auto 100%;
+	-moz-background-size:auto 100%;
+	-o-background-size: auto 100%;
+	-ms-background-size: auto 100%;
+	background-size:auto 100%;
+	background-image: url(../img/page_where/icon/icon-sm_22.html);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.sector-type .location { 
+	background:url(../img/page_where/type/icon-sm_20.png) left center no-repeat;  
+	-webkit-background-size: auto 100%;
+	-moz-background-size:auto 100%;
+	-o-background-size: auto 100%;
+	-ms-background-size: auto 100%;
+	background-size:auto 100%;
+}
+
+.sector-type .parcel { 
+	background:url(../img/page_where/type/icon-sm_22.png) left center no-repeat;  
+	-webkit-background-size: auto 100%;
+	-moz-background-size:auto 100%;
+	-o-background-size: auto 100%;
+	-ms-background-size: auto 100%;
+	background-size:auto 100%;
+}
+
+.sector-type .bts { 
+	background:url(../img/page_where/type/icon-sm_24.png) left center no-repeat;  
+	-webkit-background-size: auto 100%;
+	-moz-background-size:auto 100%;
+	-o-background-size: auto 100%;
+	-ms-background-size: auto 100%;
+	background-size:auto 100%;
+}
+
+.sector-type .lockers { 
+	background:url(../img/page_where/type/icon-sm_30.png) left center no-repeat;  
+	-webkit-background-size: auto 100%;
+	-moz-background-size:auto 100%;
+	-o-background-size: auto 100%;
+	-ms-background-size: auto 100%;
+	background-size:auto 100%;
+}
+
+.sector-type .dcsp { 
+	background:url(../img/page_where/type/icon-sm_27.png) left center no-repeat;  
+	-webkit-background-size: auto 100%;
+	-moz-background-size:auto 100%;
+	-o-background-size: auto 100%;
+	-ms-background-size: auto 100%;
+	background-size:auto 100%;
+}
+
+
+
+
+.sector-branch { padding:10px 20px;padding-bottom:40px; }
+.sector-branch > .warpper { max-width:1200px;margin:0px auto; }
+.sector-branch h3 {
+	color:#f27024;
+	font-size:25px;
+	margin:0px;
+	border-bottom:1px #bfbfbf solid;
+	padding-bottom:10px;
+}
+.sector-branch h3 > span { float:right;font-weight:normal;font-size:24px;margin-right:20px;margin-top:8px;  }
+
+.listArea > .list { border-bottom:1px #efefef solid;padding:5px 10px;color:#333333;cursor:pointer }
+.listArea > .list > .row { display:table;margin:7px 0px; }
+.listArea > .list > .row > .col { display:table-cell;vertical-align:middle;padding-right:14px; }
+.listArea > .list > .row > .col  a { color:#333333; } 
+.listArea > .list > .row > .colImg { width:5%; }
+.listArea > .list > .row > .colImg > img { width:50px;height:50px;border-radius:25px; }
+.listArea > .list > .row > .colA {  }
+.listArea > .list > .row > .colB { width:40% }
+.listArea > .list > .row > .colC { width:19%;text-align:center }
+.listArea > .list > .row > .colD { width:20%;text-align:center }
+
+.listArea > .list > .row > .colB:before {
+	
+}
+.listArea > .list > .row > .colC:before {
+
+}
+.listArea > .list > .row > .colD:before {
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+}
+
+@media only screen and (max-width: 1300px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+	.mapArea { height:auto;width:auto }
+	
+	#sector-map  { height:500px; }
+	
+	#sector-search { position:relative;top:auto;right:auto;width:auto;height:auto }
+	#sector-search > .warpper { max-width:1200px;margin:0px auto;overflow:auto;width:auto  }
+	
+	#sector-search .boxDetail .img { width:50%;float:left; }
+	#sector-search .boxDetail .tb { width:50%;float:left;margin-top:20px; }
+	#sector-search .boxDetail .tb td { padding:5px 10px; }
+	#sector-search .boxDetail .tb .subject { width:80px }
+	#sector-search .btnArea { float:left;width:50%;margin-top:20px; }
+}
+
+@media only screen and (max-width: 1000px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+	#sector-search .boxDetail .img { width:45% }
+	#sector-search .boxDetail .tb { width:55%;margin-top:0px; }
+	#sector-search .boxDetail .tb .subject { width:60px }
+	#sector-search .btnArea { width:auto;float:none;padding-top:30px;clear:both; }
+	
+	
+	.listArea > .list > .row { display:block; }
+	.listArea > .list > .row > .col { display:block;margin-left:64px;width:auto }
+	.listArea > .list > .row > .colImg { float:left;margin-left:0px; }
+	.listArea > .list > .row > .colA { font-weight:bold;margin-bottom:8px;font-size:18px; }
+	.listArea > .list > .row > .colB { margin-bottom:8px;padding-bottom:5px; }
+	.listArea > .list > .row > .colC { text-align:left;font-size:14px; }
+	.listArea > .list > .row > .colD { text-align:left;font-size:14px; }
+}
+
+@media only screen and (max-width: 700px) {
+	.sector-type { display:none; }
+	
+	#sector-search .frmSearch { text-align:center }
+	#sector-search .frmSearch .btn { width:240px;  }
+	
+	
+	#sector-search .boxDetail .img { width:auto;float:none}
+	#sector-search .boxDetail .tb { width:auto;float:none;margin-top:20px; }
+	#sector-search .btnArea { padding-top:10px; }
+	
+}
+
+@media only screen and (max-width: 500px) {
+	#sector-search .boxDetail .tb .subject { width:50px }
+	
+	.sector-branch h3 > span { margin-right:0px; float:none;display:block;font-size:15px;margin-top:-2px; }
+	
+	
+}

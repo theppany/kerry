@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"ids":["cat_name","sort"],"table":{"crudTitle":"T_Cat manager","crudRowsPerPage":"20"},"filter":{"list":["id","cat_name","sort"],"atrr":{"cat_name":{"alias":"\u5206\u985e\u540d"},"id":{"alias":"id"},"sort":{"alias":"\u6392\u5e8f"}}},"column":{"list":["id","cat_name","sort"],"actived":["id","cat_name","sort"],"atrr":{"cat_name":{"alias":"\u5206\u985e\u540d"},"id":{"alias":"id"},"sort":{"alias":"\u6392\u5e8f"}}},"frm_type":"2"}

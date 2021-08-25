@@ -1,0 +1,2 @@
+<?php exit; ?>
+{"field":"shown_homepage","label":"\u662f\u5426\u9996\u9801\u986f\u793a","type":"radio","options":["yes","no"],"type_options":{"size":"210","width":"300","height":"100","thumbnail":"mini"},"validation":"","list_choose":"database","multiple":"","values":["1","0"]}
